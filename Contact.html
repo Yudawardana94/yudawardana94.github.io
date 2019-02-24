@@ -9,7 +9,8 @@
     <title>Galery Indonesia</title>
 </head>
 <body>
-    <!-- Navigasi bar -->
+   <div class="bawahbody" id="bawahbody">
+      <!-- Navigasi bar -->
       <div class="navabout" id="navabout">
         <a href="index.html" id="logo">diisi logo</a>
         <ul>
@@ -17,20 +18,55 @@
             <li><a href="Ourstory.html">Our Story</a></li>
             <li><a href="Galery.html">Galery</a></li>
             <li><a href="About.html">About</a></li>
-            <li><a href="Contact.html">Contact</a></li>
+            <li><a href="Contact.html">Contact Us</a></li>
         </ul>
       </div>
     <!-- gambar -->
-    <div class="picheader" id="picheader">
-
+    <div class="konten" id="konten">
+       <div class="gambar" id="gambar"></div>
     </div>
     <!-- Contact -->
     <div class="contact" id="contact">
-
+        <form action="index.html" method="GET">
+          <table>
+            <tr>
+              <td>Full Name*</td><br>
+              <td><input id="Firstname" type="text" name="Firstname" required></td>
+            </tr>
+            <tr>
+              <td>Email*</td><br>
+              <td><input id="Email" type="email" name="Email" required></td>
+            </tr>
+            <tr>
+              <td>Website</td><br>
+              <td><input id="Website" type="url" name="Website" ></td>
+            </tr>
+            <tr>
+              <td>Subject*</td><br>
+              <td><select id=subject name="subject">
+                    <option value="Chose subject">Chose subject</option>
+                    <option value="Penawaran promosi/ Marketing">Penawaran promosi/ Marketing</option>
+                    <option value="Pengajuan kerjasama">Pengajuan kerjasama</option>
+                    <option value="Komentar Website">Komentar Website</option>
+                    <option value="Lainnya">Lainnya</option>
+                  </select>
+              </td>
+            </tr>
+            <tr>
+              <td>Message*</td><br>
+              <td><textarea id="message" name="message" ></textarea></td>
+            </tr>
+            <tr>
+              <td colspan="2" align="center"><input type="submit" id="submit" name="submit" class="submitbtn" value="submit"></td>
+            </tr>
+          </table>
+        </form>
+        </div>
     </div>
     <!-- footer -->
-    <div class="footer" id="footer">
+    <div class="footerab" id="footerab">
         <p>copyright | 2019 . yudawardana</p>
     </div>
+  </div>
 </body>
 </html>

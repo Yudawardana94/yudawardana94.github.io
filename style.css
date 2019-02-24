@@ -13,6 +13,10 @@ body{
     background-repeat: no-repeat;
 }
 
+.bawahbody{
+    background-image: url(../yudawardana94.github.io/pic/wheat.png);
+}
+
 /* *****navigation bar***** */
 .navbar a {
    text-decoration: none; 
@@ -127,7 +131,6 @@ body{
     list-style: none;
     float: right;
     font-weight: 400;
-
 }
 
 .navabout ul li{
@@ -144,6 +147,51 @@ body{
     color: #282828;
     opacity: 0.6;
     transition: 0.4s ease;
-    transition-delay: 4ms;
-    
+    transition-delay: 4ms; 
+}
+
+.konten {
+    /* background-color: salmon; */
+    width: 800px;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.gambar {
+    height: 300px;
+    background-image: url(../yudawardana94.github.io/pic/tebing2.jpg);
+    background-position: 0 -210px;
+    background-size: cover
+} 
+
+.contact form{
+    position: relative;
+    left: 420px;
+    margin: 20px;
+    display: inline-block;
+}
+
+.contact table{
+    text-align: left;
+    size: 100px;
+}
+.contact table tr td{
+    width: 100px;
+    height: 50px;
+    position: relative;
+    left: 50px;
+    top: -90px;
+    color: #eaeaea;
+}
+
+.footerab {
+    text-align: center;
+    background-image: #232323;
+    color: #232323;
+    padding: 10px 0px;
+}
+
+.footerab p{
+    font-weight: 700;
+    text-align: center;
 }

@@ -17,6 +17,10 @@ body{
     background-image: url(../yudawardana94.github.io/pic/wheat.png);
 }
 
+.layer2 {
+    background-color: #eaeaea;
+    position: absolute;
+}
 /* *****navigation bar***** */
 .navbar a {
    text-decoration: none; 
@@ -113,7 +117,7 @@ body{
     color: #eaeaea;
 }
 
-/* about */
+/* navigasi selain home */
 .navabout{
     background-color: #282828;
     padding: 15px 20px;
@@ -157,6 +161,9 @@ body{
     padding-top: 20px;
 }
 
+
+/* konten Contact Us */
+
 .gambar {
     height: 300px;
     background-image: url(../yudawardana94.github.io/pic/tebing2.jpg);
@@ -164,6 +171,12 @@ body{
     background-size: cover
 } 
 
+.contact h2{
+    color: #eaeaea;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 50px;
+}
 .contact form{
     position: relative;
     left: 420px;
@@ -186,12 +199,51 @@ body{
 
 .footerab {
     text-align: center;
-    background-image: #232323;
-    color: #232323;
-    padding: 10px 0px;
+    background-color: #232323;
+    color: #eaeaea;
+    padding: 15px 0;
 }
 
 .footerab p{
     font-weight: 700;
+}
+
+/* konten about */
+
+.gambarab{
+    height: 300px;
+    background-image: url(../yudawardana94.github.io/pic/pantai.jpg);
+    background-position: 0 -40px;
+    background-size: cover
+}
+
+.About{
+    margin: 0px 276px;
+    padding :10px 60px;
+    background-color: #eaeaea;
+    /* border: 1px solid black; */
+}
+.About h2{
+    color: #232323;;
     text-align: center;
+    margin: 0px 220px;
+    margin-top: 20px;
+    font-size: 30px;
+}
+.teks{
+    color: #232323;;
+    text-align: left;
+    margin: 0px 250px;
+}
+
+.footernew{
+    text-align: center; 
+    color: #eaeaea;
+    background-color: #232323;
+    padding: 15px 0;
+    margin-top: 20px;
+}
+
+.footernew p{
+    font-weight: 700p;
 }

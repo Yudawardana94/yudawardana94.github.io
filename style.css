@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.65)), url(../myJourney.github.io/pic/tebing.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 640px;
+    width: auto;
+    background-repeat: no-repeat;
+}
+
+/* *****navigation bar***** */
+.navbar a {
+   text-decoration: none; 
+   color: #eaeaea;
+   margin-top: 10px;
+   float: left;
+   font-size: 20px;
+}
+
+#logo {
+    margin-left: 10px;
+   
+}
+
+.navbar ul{
+    float: right;    
+    margin-right: 10px;
+    list-style-type: none;
+    font-weight: 400;
+}
+.navbar ul li{
+    display: inline-block;
+}
+
+.navbar ul li a{
+    padding: 0px 15px;
+}
+
+.navbar ul li a:hover{
+    background-color: #eaeaea;
+    color: #232323;
+    opacity: 0.7;
+    transition: 0.4s ease ;
+    transition-delay: 4ms;
+}
+
+/* *****mid***** */
+.container {
+    width: 1000px;
+    /* height: 620px; */
+    margin: auto;
+    /* background: #232323 */
+}
+
+.container h1{
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    /* background-color: aquamarine; */
+    text-align: right;
+    font-size: 70px;
+    color: #eaeaea;
+}
+
+.fr {
+    text-align: center;
+    margin: 0px 400px;
+    position: absolute;
+    top: 52%;
+    left: 9%;
+    color: #eaeaea;
+
+}
+.fr h4{
+    color: salmon;
+    display: inline-block;
+    color: #eaeaea;
+    padding: 2px 5px;
+    border: 1px solid #eaeaea;
+}
+
+.fr h4 a{
+    text-decoration: none;
+    padding: 3px 10px;
+    color: #eaeaea;
+    font-size: 20px;
+}
+
+.fr h4 a:hover{
+    /* background-color: #eaeaea; */
+    color: #eaeaea;
+    padding: 10px;
+    transition: 0.4s ease ;
+    transition-delay: 4ms;
+}
+
+.homefooter{
+    /* background-color: aqua; */
+    text-align: center;
+    opacity: 0.7;
+    position: fixed;
+    bottom: 1%;
+    left: 40%;
+    color: #eaeaea;
+}
+
+/* about */
+.navabout{
+    background-color: #282828;
+    padding: 15px 20px;
+
+}
+.navabout a{
+    /* background-color: #282828; */
+    text-decoration: none;
+    color: #eaeaea;
+    padding-top: 10px;
+}
+
+.navabout ul{
+    text-decoration: none;
+    list-style: none;
+    float: right;
+    font-weight: 400;
+
+}
+
+.navabout ul li{
+    display: inline-block;
+}
+
+.navabout ul li a{
+    padding: 2px 15px;
+    font-size: 17px;
+}
+
+.navabout ul li a:hover{
+    background-color: #eaeaea;
+    color: #282828;
+    opacity: 0.6;
+    transition: 0.4s ease;
+    transition-delay: 4ms;
+    
+}
